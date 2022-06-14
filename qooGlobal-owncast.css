@@ -1,0 +1,535 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,300');
+
+body {
+    color: #212529 !important;
+    background-color: #fff !important;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body * {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background-color: #fff !important;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%) !important;
+    border: none !important;
+}
+
+h2,
+h2 *,
+h1,
+h1 *,
+h3,
+h3 *,
+h4,
+h4 *,
+h5,
+h5 *,
+span {
+    color: #212529 !important;
+}
+
+p {
+    color: #13305d;
+}
+
+ul li a {
+    color: #2f5890 !important;
+}
+
+ul li a:hover {
+    color: #4c9eea !important;
+}
+
+a {
+    color: #4c9eea !important;
+}
+
+a:hover {
+    color: #2f5890 !important;
+}
+
+#video-container {
+    background-color: #fff;
+}
+
+#stream-info {
+    background-color: #13305d;
+}
+
+#stream-info * {
+    color: #fff !important;
+}
+
+#top-content header .instance-title {
+    color: #4c9eea !important;
+    font-weight: bold;
+}
+
+#logo-container {
+    background-image: url(https://8xsport.com/logo) !important;
+    background-size: 100%;
+    width: 8rem;
+    border-radius: 0;
+}
+
+.user-logo-icons .user-image {
+    background-size: contain;
+}
+
+.custom-thumbnail-image {
+    background-color: #dedede;
+}
+
+#video-container {
+    height: 100vh;
+    max-height: calc(100vh - var(--header-height) - 2rem);
+}
+
+#user-content .user-logo-icons,
+#user-content #stream-summary,
+#user-content #tag-list,
+footer.text-xs,
+header h1 .instance-title,
+#extra-user-content {
+    display: none;
+}
+
+header #user-options-container {
+    background-color: #4c9eea;
+}
+
+header #user-info-display * {
+    color: #13305d !important;
+}
+
+header #button-cancel-change {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    background-color: #13305d !important;
+    padding-right: 0.75rem;
+    border-radius: 0;
+}
+
+header #button-update-username {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    border-radius: 0;
+}
+
+#username-change-input {
+    border-radius: 0;
+    background: #fff;
+}
+
+#username-change-input:focus-visible {
+    outline: none;
+    border: 1px solid #4c9eea !important;
+    border-radius: 0;
+}
+
+#user-options-container {
+    padding-left: 0.5rem;
+}
+
+#user-content {
+    display: none;
+}
+
+.no-video .custom-thumbnail-image {
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+:root {
+    --header-bg-color: rgba(10, 25, 49, 1);
+    --owncast-purple: rgba(76, 158, 234, 1);
+}
+
+#messages-container .message {
+    background-color: #2F5890 !important;
+
+}
+
+#chat-container {
+    background-color: #2F5890 !important;
+}
+
+#messages-container .message.rounded-lg.shadow-l.border-solid.border-indigo-700.border-2.border-opacity-60 {
+    border: none;
+    background-color: #4c9eea !important;
+}
+
+.video-js .vjs-big-play-button {
+    background-color: rgb(76 158 234) !important;
+}
+
+.video-js .vjs-icon-placeholder {
+    color: #fff !important;
+}
+
+#message-input-container {
+    background-color: #2F5890 !important;
+    border-top: 1px solid #fff;
+}
+
+#user-options-container button.flex.cursor-pointer {
+    background-color: #4c9eea !important;
+    border-radius: 0;
+}
+
+#chat-container-wrap .message-content .text-gray-400 * {
+    color: #fff !important;
+}
+
+#user-options-container button.flex.cursor-pointer:focus,
+#user-options-container button.flex.cursor-pointer:visited {
+    outline-color: transparent !important;
+    border: none;
+    border-radius: 0;
+}
+
+.vjs-seek-to-live-control.vjs-control * {
+    color: #fff !important;
+}
+
+.no-video #video-container .video-js {
+    background-image: url(https://8xbet.com/images/video-off.png) !important;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 15%;
+}
+
+
+#video-container video {
+    visibility: hidden !important;
+
+}
+
+#video-container .video-js {
+    background-image: url(https://8xbet.com/images/video-off.png) !important;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 15%;
+}
+
+.online #video-container .vjs-live.vjs-liveui video,
+#video-container .video-js.vjs-playing.vjs-has-started.vjs-waiting video {
+    visibility: visible !important;
+}
+
+.online #video-container .vjs-live.vjs-liveui,
+#video-container .video-js.vjs-playing.vjs-has-started.vjs-waiting {
+    background-image: none !important;
+}
+
+@media screen and (max-width: 992px) {
+    #video-only #video-container {
+        max-height: calc(100vh - var(--header-height) - 4rem);
+    }
+}
+
+@media screen and (max-width: 575px) {
+
+    #loading-logo {
+        margin-top: 40%;
+        height: auto !important;
+        width: 50%;
+    }
+
+    #video-container {
+        height: 100vh;
+        max-height: calc(100vh - var(--header-height) - 0rem);
+    }
+}
+
+#stream-viewer-count {
+    display: none;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,300');
+
+body {
+    color: #212529 !important;
+    background-color: #fff !important;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body * {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background-color: #fff !important;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%) !important;
+    border: none !important;
+}
+
+h2,
+h2 *,
+h1,
+h1 *,
+h3,
+h3 *,
+h4,
+h4 *,
+h5,
+h5 *,
+span {
+    color: #212529 !important;
+}
+
+p {
+    color: #13305d;
+}
+
+ul li a {
+    color: #2f5890 !important;
+}
+
+ul li a:hover {
+    color: #4c9eea !important;
+}
+
+a {
+    color: #4c9eea !important;
+}
+
+a:hover {
+    color: #2f5890 !important;
+}
+
+#video-container {
+    background-color: #fff;
+}
+
+#stream-info {
+    background-color: #13305d;
+}
+
+#stream-info * {
+    color: #fff !important;
+}
+
+#top-content header .instance-title {
+    color: #4c9eea !important;
+    font-weight: bold;
+}
+
+#logo-container {
+    background-image: url(https://8xsport.com/logo) !important;
+    background-size: 100%;
+    width: 8rem;
+    border-radius: 0;
+}
+
+.user-logo-icons .user-image {
+    background-size: contain;
+}
+
+.custom-thumbnail-image {
+    background-color: #dedede;
+}
+
+#video-container {
+    height: 100vh;
+    max-height: calc(100vh - var(--header-height) - 2rem);
+}
+
+#user-content .user-logo-icons,
+#user-content #stream-summary,
+#user-content #tag-list,
+footer.text-xs,
+header h1 .instance-title,
+#extra-user-content {
+    display: none;
+}
+
+header #user-options-container {
+    background-color: #4c9eea;
+}
+
+header #user-info-display * {
+    color: #13305d !important;
+}
+
+header #button-cancel-change {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    background-color: #13305d !important;
+    padding-right: 0.75rem;
+    border-radius: 0;
+}
+
+header #button-update-username {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    border-radius: 0;
+}
+
+#username-change-input {
+    border-radius: 0;
+    background: #fff;
+}
+
+#username-change-input:focus-visible {
+    outline: none;
+    border: 1px solid #4c9eea !important;
+    border-radius: 0;
+}
+
+#user-options-container {
+    padding-left: 0.5rem;
+}
+
+#user-content {
+    display: none;
+}
+
+.no-video .custom-thumbnail-image {
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+:root {
+    --header-bg-color: rgba(10, 25, 49, 1);
+    --owncast-purple: rgba(76, 158, 234, 1);
+}
+
+#messages-container .message {
+    background-color: #13305d !important;
+
+}
+
+#chat-container {
+    background-color: #2F5890 !important;
+    background-image: url(https://8xbet.com/images/bg-pattern.jpg) !important;
+    background-size: cover;
+}
+
+#messages-container .message.rounded-lg.shadow-l.border-solid.border-indigo-700.border-2.border-opacity-60 {
+    background-color: #4c9eea !important;
+}
+
+.video-js .vjs-big-play-button {
+    background-color: rgb(76 158 234) !important;
+}
+
+.video-js .vjs-icon-placeholder {
+    color: #fff !important;
+}
+
+#message-input-container {
+    background-color: #2F5890 !important;
+    border-top: 1px solid #fff;
+}
+
+#user-options-container button.flex.cursor-pointer {
+    background-color: #4c9eea !important;
+    border-radius: 0;
+}
+
+#chat-container-wrap .message-content .text-gray-400 * {
+    color: #fff !important;
+}
+
+#user-options-container button.flex.cursor-pointer:focus,
+#user-options-container button.flex.cursor-pointer:visited {
+    outline-color: transparent !important;
+    border: none;
+    border-radius: 0;
+}
+
+.vjs-seek-to-live-control.vjs-control * {
+    color: #fff !important;
+}
+
+.no-video #video-container .video-js {
+    background-image: url(https://8xbet.com/images/video-off.png) !important;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 15%;
+}
+
+
+#video-container video {
+    visibility: hidden !important;
+
+}
+
+#video-container .video-js {
+    background-image: url(https://8xbet.com/images/video-off.png) !important;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 15%;
+}
+
+.online #video-container .vjs-live.vjs-liveui video,
+#video-container .video-js.vjs-playing.vjs-has-started.vjs-waiting video {
+    visibility: visible !important;
+}
+
+.online #video-container .vjs-live.vjs-liveui,
+#video-container .video-js.vjs-playing.vjs-has-started.vjs-waiting {
+    background-image: none !important;
+}
+
+
+#video-only #video-container {
+    min-height: calc(100vh - 2.2rem);
+    height: calc(100vh - 0rem);
+}
+
+@media screen and (max-width: 575px) {
+
+    #loading-logo {
+        margin-top: 40%;
+        height: auto !important;
+        width: 50%;
+    }
+
+    #video-container {
+        height: 100vh;
+        max-height: calc(100vh - var(--header-height) - 0rem);
+    }
+}
+
+#stream-viewer-count {
+    display: none;
+}
+
+#video-only #stream-info {
+    position: absolute;
+    height: 2.5rem;
+    width: 100%;
+    bottom: 0;
+}
+
+#messages-only header {
+    background-color: #4c9eea !important;
+}
+
+#send-message-button {
+    background-color: #4c9eea;
+    display: block;
+}
+
+.message-text {
+    word-break: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+}
+
+.moderator-more-info-user * {
+    color: #a0aec0 !important;
+}
