@@ -71,7 +71,7 @@ a:hover {
 }
 
 #logo-container {
-    background-image: url(https://8xsport.com/logo) !important;
+    background-image: url(https://8xbet.live/logo) !important;
     background-size: 100%;
     width: 8rem;
     border-radius: 0;
@@ -325,7 +325,7 @@ a:hover {
 }
 
 #logo-container {
-    background-image: url(https://8xsport.com/logo) !important;
+    background-image: url(https://8xbet.live/logo) !important;
     background-size: 100%;
     width: 8rem;
     border-radius: 0;
@@ -525,11 +525,10 @@ header #button-update-username {
 
 .message-text {
     word-break: break-word;
-    -webkit-hyphens: auto;
-    -moz-hyphens: auto;
-    hyphens: auto;
+-webkit-hyphens: auto;
+   -moz-hyphens: auto;
+        hyphens: auto;
 }
+.moderator-more-info-user  *{color:#a0aec0!important;}
 
-.moderator-more-info-user * {
-    color: #a0aec0 !important;
-}
+
