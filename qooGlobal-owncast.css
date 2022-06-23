@@ -525,10 +525,23 @@ header #button-update-username {
 
 .message-text {
     word-break: break-word;
--webkit-hyphens: auto;
-   -moz-hyphens: auto;
-        hyphens: auto;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
 }
-.moderator-more-info-user  *{color:#a0aec0!important;}
+
+.moderator-more-info-user * {
+    color: #a0aec0 !important;
+}
+
+.vjs-has-started .vjs-control-bar {
+    position: absolute;
+    bottom: 2.5rem;
+}
 
 
+.vjs-seek-to-live-control.vjs-control .vjs-icon-placeholder:before{color:red!important;}
+
+#message-input:empty:before {
+content: "Nhắn tin tại đây"!important;
+}
